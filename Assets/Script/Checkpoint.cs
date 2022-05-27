@@ -5,11 +5,12 @@ using UnityEngine;
 public class Checkpoint : MonoBehaviour
 {
     private TrackCheckpoint trackCheckpoint;
+    
     private void onTriggerEnter(Collider other)
     {
-        if(other.TryGetComponent<Player>(out Player player))
+        if(other.TryGetComponent<CarDriver>(out CarDriver carDriver))
         {
-            trackCheckpoint.PlayerThroughCheckpoint(this);
+            trackCheckpoint.PlayerThroughCheckpoint(this, other.transform);
         }
     }
 
