@@ -62,10 +62,12 @@ public class TrackCheckpoints : MonoBehaviour {
         return checkpointsList[nextCheckpointIndex].transform.forward;
     }
 
-    public void ResetCheckpoint(Transform transform){
-        int nextCheckpointSingleIndex = nextCheckpointSingleIndexList[carTransformList.IndexOf(transform)];
-        CheckpointSingle correctCheckpointSingle = checkpointSingleList[nextCheckpointSingleIndex];
-        correctCheckpointSingle.Show();
+    public void ResetCheckpoint(Transform carTransform){
+        int currentCheckpointIndex = nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform)];
+        if(currentCheckpointIndex == 0){
+            CheckpointSingle currentCheckpointSingle = checkpointSingleList[currentCheckpointIndex];
+            currentCheckpointSingle.Show();
+        }
     }
 
 }
