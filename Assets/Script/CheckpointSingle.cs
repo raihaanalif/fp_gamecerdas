@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class CheckpointSingle : MonoBehaviour {
 
-    private TrackCheckpoints trackCheckpoints;
+    // private TrackCheckpoints trackCheckpoints;
     private MeshRenderer meshRenderer;
+    private TrackCheckpoints trackCheckpoints;
 
+    // TrackCheckpoints trackCheckpoints = new TrackCheckpoints();
     private void Awake() {
         meshRenderer = GetComponent<MeshRenderer>();
     }
@@ -17,7 +19,9 @@ public class CheckpointSingle : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other) {
         if (other.TryGetComponent<CarDriver>(out CarDriver carDriver)) {
-            trackCheckpoints.CarThroughCheckpoint(this, other.transform);
+            // Debug.Log("Checkpoint");
+            Debug.Log(trackCheckpoints);
+            // trackCheckpoints.CarThroughCheckpoint(this, carDriver.transform);
         }
     }
 

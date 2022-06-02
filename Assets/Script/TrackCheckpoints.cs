@@ -5,16 +5,17 @@ using UnityEngine;
 
 public class TrackCheckpoints : MonoBehaviour {
 
-    public event EventHandler OnPlayerCorrectCheckpoint;
-    public event EventHandler OnPlayerWrongCheckpoint;
-
+    public event EventHandler<CarCheckpointEventArgs> OnPlayerCorrectCheckpoint;
+    public event EventHandler<CarCheckpointEventArgs> OnPlayerWrongCheckpoint;
+    
+    private List<CheckpointSingle> checkpointsList;
     [SerializeField] private List<Transform> carTransformList;
 
     private List<CheckpointSingle> checkpointSingleList;
     private List<int> nextCheckpointSingleIndexList;
 
     private void Awake() {
-        Transform checkpointsTransform = transform.Find("Checkpoint");
+        Transform checkpointsTransform = transform.Find("Checkpoints");
 
         checkpointSingleList = new List<CheckpointSingle>();
         foreach (Transform checkpointSingleTransform in checkpointsTransform) {
@@ -41,16 +42,34 @@ public class TrackCheckpoints : MonoBehaviour {
 
             nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform)]
                 = (nextCheckpointSingleIndex + 1) % checkpointSingleList.Count;
-            OnPlayerCorrectCheckpoint?.Invoke(this, EventArgs.Empty);
+            OnPlayerCorrectCheckpoint?.Invoke(this, EventArgs.Empty as CarCheckpointEventArgs);
         } else {
             // Wrong checkpoint
             Debug.Log("Wrong");
-            OnPlayerWrongCheckpoint?.Invoke(this, EventArgs.Empty);
+            OnPlayerWrongCheckpoint?.Invoke(this, EventArgs.Empty as CarCheckpointEventArgs);
 
             CheckpointSingle correctCheckpointSingle = checkpointSingleList[nextCheckpointSingleIndex];
             correctCheckpointSingle.Show();
         }
     }
 
+    protected void onCarCheckPoint(CarCheckpointEventArgs e){
+        EventHandler<CarCheckpointEventArgs> handler = OnPlayerCorrectCheckpoint;
+    }
+
+    public Vector3 GetNextCheckpoint(Transform carTransform){
+        int nextCheckpointIndex = nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform)];
+        return checkpointsList[nextCheckpointIndex].transform.forward;
+    }
+
+    public void ResetCheckpoint(Transform transform){
+        int nextCheckpointSingleIndex = nextCheckpointSingleIndexList[carTransformList.IndexOf(transform)];
+        CheckpointSingle correctCheckpointSingle = checkpointSingleList[nextCheckpointSingleIndex];
+        correctCheckpointSingle.Show();
+    }
 
 }
+
+   public class CarCheckpointEventArgs : EventArgs{
+        public Transform carTransform;
+    }

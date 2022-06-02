@@ -110,6 +110,10 @@ public class CarDriver : MonoBehaviour
         return speed;
     }
 
+    public void ClearTurnSpeed() {
+        turnSpeed = 0f;
+    }
+    
     public void StopCompletely() {
         speed = 0f;
         turnSpeed = 0f;
