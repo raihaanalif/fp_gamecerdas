@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Script/CarController.cs.meta
 guid: 559a4b0ab1243184a9eb5103e139202f
+=======
+guid: 23e435226abce3241a65009e3404e33c
+>>>>>>> ed3d7a09df85b43b57e72ecf36ec8b1aafbb2fe3:Assets/Script/CameraScript.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

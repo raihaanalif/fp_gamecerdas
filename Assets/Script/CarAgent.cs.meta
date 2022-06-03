@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Script/CarAgent.cs.meta
 guid: d1285efb2a7a6eb4d9897b1b5b962c5a
+=======
+guid: 009ab5a8f65895241b8403463a6d8fac
+>>>>>>> ed3d7a09df85b43b57e72ecf36ec8b1aafbb2fe3:Assets/Script/CarDriver.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

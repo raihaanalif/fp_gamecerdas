@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Checkpoint
+<<<<<<< HEAD
+=======
+  - Car
+  - Barrier
+  - Track
+>>>>>>> ed3d7a09df85b43b57e72ecf36ec8b1aafbb2fe3
   layers:
   - Default
   - TransparentFX
