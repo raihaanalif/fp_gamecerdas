@@ -18,19 +18,15 @@ public class CheckpointSingle : MonoBehaviour {
     }
 
     private void OnTriggerEnter(Collider other) {
-        if (other.TryGetComponent<CarDriver>(out CarDriver carDriver)) {
+        if(other.TryGetComponent<CarAgent>(out CarAgent carAgent)) {
             // Debug.Log("Checkpoint");
-            Debug.Log(trackCheckpoints);
-            // trackCheckpoints.CarThroughCheckpoint(this, carDriver.transform);
+            // Debug.Log(trackCheckpoints);
+            // trackCheckpoints.CarThroughCheckpoint(this, carAgent.transform);
+            carAgent.GotCheckpoint(this);
         }
     }
 
-    // private void OnTriggerEnter2D(Collider2D collider) {
-    //     if (collider.TryGetComponent<Player_RollSpeed>(out Player_RollSpeed player)) {
-    //         trackCheckpoints.CarThroughCheckpoint(this, collider.transform);
-    //     }
-    // }
-
+    
     public void SetTrackCheckpoints(TrackCheckpoints trackCheckpoints) {
         this.trackCheckpoints = trackCheckpoints;
     }

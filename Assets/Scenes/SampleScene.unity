@@ -186,6 +186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -194,44 +198,6 @@ PrefabInstance:
     - {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
     - {fileID: 190544719948302706, guid: bd13861f4ad53954b85039535d82d610, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bd13861f4ad53954b85039535d82d610, type: 3}
---- !u!1 &21423661 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 614775202}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &21423664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 21423661}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
---- !u!1 &24710384 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 1730832320}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &24710387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 24710384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1 &35273287 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
@@ -276,25 +242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fab9640762a8cf4895b5396710da689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &44138526 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 1693311116}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &44138529
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 44138526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1001 &46839659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -497,25 +444,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9be2bfbf5da75494abed3eca04e5d5bf, type: 3}
---- !u!1 &71737815 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9be2bfbf5da75494abed3eca04e5d5bf, type: 3}
-  m_PrefabInstance: {fileID: 67173540}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &71737818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 71737815}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!4 &75530476 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 63feccdbce997314d86041da9cfa5c37, type: 3}
@@ -633,6 +561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -641,44 +573,6 @@ PrefabInstance:
     - {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
     - {fileID: 190544719948302706, guid: bd13861f4ad53954b85039535d82d610, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bd13861f4ad53954b85039535d82d610, type: 3}
---- !u!1 &125180258 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 63feccdbce997314d86041da9cfa5c37, type: 3}
-  m_PrefabInstance: {fileID: 348492498}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &125180261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 125180258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
---- !u!1 &132356020 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 581359896}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &132356023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132356020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1001 &134809062
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -826,6 +720,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -839,6 +737,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dc17f5a77132ab34185faf4cad5c04d9, type: 3}
   m_PrefabInstance: {fileID: 619867319}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &165836803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1389085389621415177, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+  m_PrefabInstance: {fileID: 848180706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!146 &165836805
+WheelCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165836803}
+  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.5
+  m_SuspensionSpring:
+    spring: 35000
+    damper: 4500
+    targetPosition: 0.5
+  m_SuspensionDistance: 0.3
+  m_ForceAppPointDistance: 0
+  m_Mass: 20
+  m_WheelDampingRate: 0.25
+  m_ForwardFriction:
+    m_ExtremumSlip: 0.4
+    m_ExtremumValue: 1
+    m_AsymptoteSlip: 0.8
+    m_AsymptoteValue: 0.5
+    m_Stiffness: 1
+  m_SidewaysFriction:
+    m_ExtremumSlip: 0.2
+    m_ExtremumValue: 1
+    m_AsymptoteSlip: 0.5
+    m_AsymptoteValue: 0.75
+    m_Stiffness: 1
+  m_Enabled: 1
 --- !u!1001 &174159683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -901,6 +834,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -971,11 +908,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dc17f5a77132ab34185faf4cad5c04d9, type: 3}
   m_PrefabInstance: {fileID: 2099422433}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &186971675 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: da636be763965614e8bb22da1ce197bc, type: 3}
-  m_PrefabInstance: {fileID: 358476273}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &188001665
 PrefabInstance:
@@ -1097,6 +1029,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -1105,25 +1041,6 @@ PrefabInstance:
     - {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
     - {fileID: 190544719948302706, guid: bd13861f4ad53954b85039535d82d610, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bd13861f4ad53954b85039535d82d610, type: 3}
---- !u!1 &191767132 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 244456316}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &191767135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 191767132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!4 &192918144 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
@@ -1512,6 +1429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -1555,25 +1476,6 @@ WheelCollider:
     m_AsymptoteValue: 0.75
     m_Stiffness: 1
   m_Enabled: 1
---- !u!1 &340012926 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 55a3efb6c3d76f04daf8f1b886355651, type: 3}
-  m_PrefabInstance: {fileID: 1841082571}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &340012929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 340012926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1001 &348492498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1694,6 +1596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -1727,7 +1633,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: da636be763965614e8bb22da1ce197bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.06
+      value: 27.45
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: da636be763965614e8bb22da1ce197bc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1735,7 +1641,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: da636be763965614e8bb22da1ce197bc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.43
+      value: 0.89
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: da636be763965614e8bb22da1ce197bc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1771,37 +1677,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da636be763965614e8bb22da1ce197bc, type: 3}
---- !u!1 &364759486
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 364759487}
-  m_Layer: 0
-  m_Name: Street
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &364759487
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 364759486}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.759635, y: 0, z: 8.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1408891978}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &369716723
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1921,6 +1796,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -2055,6 +1934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -2125,6 +2008,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -2232,6 +2119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -2308,6 +2199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -2378,6 +2273,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -2500,25 +2399,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fab9640762a8cf4895b5396710da689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &481955391 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9be2bfbf5da75494abed3eca04e5d5bf, type: 3}
-  m_PrefabInstance: {fileID: 1991351892}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &481955394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 481955391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1001 &488113854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2582,6 +2462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -2590,25 +2474,6 @@ PrefabInstance:
     - {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
     - {fileID: 190544719948302706, guid: bd13861f4ad53954b85039535d82d610, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bd13861f4ad53954b85039535d82d610, type: 3}
---- !u!1 &497415325 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 1792974657}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &497415328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 497415325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1 &504789318 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
@@ -2693,6 +2558,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -2803,25 +2672,6 @@ WheelCollider:
     m_AsymptoteValue: 0.75
     m_Stiffness: 1
   m_Enabled: 1
---- !u!1 &543291738 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 91780c591a012ba47bee55aa63221e9e, type: 3}
-  m_PrefabInstance: {fileID: 391919693}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &543291741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543291738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1001 &546547998
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2847,7 +2697,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.84
+      value: 22.38
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2905,10 +2755,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 546547999}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04e31775a61be294da4f2705aa840324, type: 3}
+  m_Script: {fileID: 11500000, guid: 6bb6b867a41448888c1cd4f99643ad71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetPositionTransform: {fileID: 214303080}
+  m_SensorName: RayPerceptionSensor
+  m_DetectableTags:
+  - Checkpoint
+  m_RaysPerDirection: 3
+  m_MaxRayDegrees: 70
+  m_SphereCastRadius: 0.5
+  m_RayLength: 30
+  m_RayLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967291
+  m_ObservationStacks: 1
+  rayHitColor: {r: 1, g: 0, b: 0, a: 1}
+  rayMissColor: {r: 1, g: 1, b: 1, a: 1}
+  m_StartVerticalOffset: 1
+  m_EndVerticalOffset: 1
 --- !u!4 &546548001 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
@@ -2926,6 +2790,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efab99db06c1ec1499728427dae261b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &546548003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546547999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DecisionPeriod: 1
+  TakeActionsBetweenDecisions: 1
+--- !u!114 &546548004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546547999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e62eb7978d87fec4a934335aca8c1e06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 1200
+  trackCheckpoints: {fileID: 1408891979}
+  spawnPosition: {fileID: 2032680193}
 --- !u!54 &546548005
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2955,25 +2851,37 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &547292940 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dc17f5a77132ab34185faf4cad5c04d9, type: 3}
-  m_PrefabInstance: {fileID: 1017241846}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &547292943
+--- !u!114 &546548007
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 547292940}
+  m_GameObject: {fileID: 546547999}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
+  m_BrainParameters:
+    VectorObservationSize: 1
+    NumStackedVectorObservations: 1
+    m_ActionSpec:
+      m_NumContinuousActions: 0
+      BranchSizes: 0300000003000000
+    VectorActionSize: 0300000003000000
+    VectorActionDescriptions: []
+    VectorActionSpaceType: 0
+    hasUpgradedBrainParametersWithActionSpec: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 3
+  m_BehaviorType: 0
+  m_BehaviorName: CarDriver
+  TeamId: 0
+  m_UseChildSensors: 1
+  m_UseChildActuators: 1
+  m_DeterministicInference: 0
+  m_ObservableAttributeHandling: 0
 --- !u!1 &554033593 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1389085389621415177, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
@@ -3094,6 +3002,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -3181,44 +3093,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
---- !u!1 &589518610 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2870881211513d948aeed9a062cacaa2, type: 3}
-  m_PrefabInstance: {fileID: 2000747596}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &589518613
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 589518610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
---- !u!1 &596130490 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9be2bfbf5da75494abed3eca04e5d5bf, type: 3}
-  m_PrefabInstance: {fileID: 1846181255}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &596130493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 596130490}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1001 &612317140
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3338,6 +3212,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -3546,6 +3424,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -3706,6 +3588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -3714,25 +3600,6 @@ PrefabInstance:
     - {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
     - {fileID: 190544719948302706, guid: bd13861f4ad53954b85039535d82d610, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bd13861f4ad53954b85039535d82d610, type: 3}
---- !u!1 &683577566 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 63feccdbce997314d86041da9cfa5c37, type: 3}
-  m_PrefabInstance: {fileID: 287988603}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &683577569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 683577566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1001 &696086909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3973,6 +3840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -3981,25 +3852,6 @@ PrefabInstance:
     - {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
     - {fileID: 190544719948302706, guid: bd13861f4ad53954b85039535d82d610, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bd13861f4ad53954b85039535d82d610, type: 3}
---- !u!1 &734217396 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 1510411917}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &734217399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 734217396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1 &746185588 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
@@ -4085,6 +3937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -4142,25 +3998,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fab9640762a8cf4895b5396710da689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &813571760 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9be2bfbf5da75494abed3eca04e5d5bf, type: 3}
-  m_PrefabInstance: {fileID: 1601187398}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &813571763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 813571760}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1 &818025288 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
@@ -4267,25 +4104,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2870881211513d948aeed9a062cacaa2, type: 3}
---- !u!1 &850486445 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 1228072388}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &850486448
-MonoBehaviour:
+--- !u!1001 &848180706
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 850486445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.38
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.29
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+      propertyPath: m_Name
+      value: Player (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
 --- !u!1 &854998236 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
@@ -4313,25 +4200,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
   m_PrefabInstance: {fileID: 250182535}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &860977305 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 612317140}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &860977308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 860977305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!4 &891834604 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9be2bfbf5da75494abed3eca04e5d5bf, type: 3}
@@ -4403,25 +4271,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dc17f5a77132ab34185faf4cad5c04d9, type: 3}
   m_PrefabInstance: {fileID: 1017241846}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &935217979 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2870881211513d948aeed9a062cacaa2, type: 3}
-  m_PrefabInstance: {fileID: 2078142622}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &935217982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935217979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1 &943894448 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
@@ -4615,6 +4464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -4753,6 +4606,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -4823,6 +4680,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -4927,6 +4788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -4997,6 +4862,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -5126,6 +4995,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -5183,25 +5056,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fab9640762a8cf4895b5396710da689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1101682506 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dc17f5a77132ab34185faf4cad5c04d9, type: 3}
-  m_PrefabInstance: {fileID: 211574434}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1101682509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101682506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1001 &1108552890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5265,6 +5119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -5295,25 +5153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fab9640762a8cf4895b5396710da689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1112440955 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 1608056164}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1112440958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112440955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!4 &1118671532 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
@@ -5461,6 +5300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -5532,6 +5375,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -5562,50 +5409,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fab9640762a8cf4895b5396710da689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1171970840 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9be2bfbf5da75494abed3eca04e5d5bf, type: 3}
-  m_PrefabInstance: {fileID: 1866869734}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1171970843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1171970840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!4 &1173617080 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
   m_PrefabInstance: {fileID: 1416251446}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1181187438 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dc17f5a77132ab34185faf4cad5c04d9, type: 3}
-  m_PrefabInstance: {fileID: 619867319}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1181187441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1181187438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
-  - {fileID: 186971675}
 --- !u!1 &1181966280 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
@@ -5712,6 +5520,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -5863,6 +5675,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -5978,6 +5794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -5986,25 +5806,6 @@ PrefabInstance:
     - {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
     - {fileID: 190544719948302706, guid: bd13861f4ad53954b85039535d82d610, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bd13861f4ad53954b85039535d82d610, type: 3}
---- !u!1 &1260470678 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5592ba2a243e12a4c9286c83a33bf8a8, type: 3}
-  m_PrefabInstance: {fileID: 1571415554}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1260470681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1260470678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1001 &1275046150
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6067,6 +5868,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -6143,6 +5948,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -6242,6 +6051,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -6335,6 +6148,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -6405,6 +6222,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -6539,6 +6360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -6557,25 +6382,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
   m_PrefabInstance: {fileID: 1608056164}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1390759966 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 516047544}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1390759969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1390759966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!4 &1393480152 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
@@ -6617,6 +6423,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1408891978}
+  - component: {fileID: 1408891979}
   m_Layer: 0
   m_Name: Track
   m_TagString: Untagged
@@ -6631,8 +6438,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1408891977}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 8.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1719760733}
@@ -6683,9 +6490,23 @@ Transform:
   - {fileID: 1390314356}
   - {fileID: 1393480152}
   - {fileID: 748046420}
-  m_Father: {fileID: 364759487}
-  m_RootOrder: 0
+  - {fileID: 1576885493}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1408891979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408891977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carTransformList: []
 --- !u!1 &1412753510 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
@@ -6850,6 +6671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -6880,25 +6705,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fab9640762a8cf4895b5396710da689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1436304511 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 1708835549}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1436304514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1436304511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1 &1440507959 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
@@ -6984,6 +6790,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -7054,6 +6864,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -7170,6 +6984,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -7240,6 +7058,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -7328,6 +7150,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
+--- !u!1 &1514582284 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7204674477291675245, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+  m_PrefabInstance: {fileID: 848180706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!146 &1514582286
+WheelCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514582284}
+  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.5
+  m_SuspensionSpring:
+    spring: 35000
+    damper: 4500
+    targetPosition: 0.5
+  m_SuspensionDistance: 0.3
+  m_ForceAppPointDistance: 0
+  m_Mass: 20
+  m_WheelDampingRate: 0.25
+  m_ForwardFriction:
+    m_ExtremumSlip: 0.4
+    m_ExtremumValue: 1
+    m_AsymptoteSlip: 0.8
+    m_AsymptoteValue: 0.5
+    m_Stiffness: 1
+  m_SidewaysFriction:
+    m_ExtremumSlip: 0.2
+    m_ExtremumValue: 1
+    m_AsymptoteSlip: 0.5
+    m_AsymptoteValue: 0.75
+    m_Stiffness: 1
+  m_Enabled: 1
 --- !u!1001 &1521732083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7390,6 +7247,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -7465,49 +7326,46 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dc17f5a77132ab34185faf4cad5c04d9, type: 3}
   m_PrefabInstance: {fileID: 1535186357}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1541011730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 894303157822137741, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+  m_PrefabInstance: {fileID: 848180706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!146 &1541011732
+WheelCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541011730}
+  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.5
+  m_SuspensionSpring:
+    spring: 35000
+    damper: 4500
+    targetPosition: 0.5
+  m_SuspensionDistance: 0.3
+  m_ForceAppPointDistance: 0
+  m_Mass: 20
+  m_WheelDampingRate: 0.25
+  m_ForwardFriction:
+    m_ExtremumSlip: 0.4
+    m_ExtremumValue: 1
+    m_AsymptoteSlip: 0.8
+    m_AsymptoteValue: 0.5
+    m_Stiffness: 1
+  m_SidewaysFriction:
+    m_ExtremumSlip: 0.2
+    m_ExtremumValue: 1
+    m_AsymptoteSlip: 0.5
+    m_AsymptoteValue: 0.75
+    m_Stiffness: 1
+  m_Enabled: 1
 --- !u!4 &1541787997 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4320da91133dda344bdaba392bd42e80, type: 3}
   m_PrefabInstance: {fileID: 369716723}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1544586849 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 250182535}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1544586852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544586849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
---- !u!1 &1555153043 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9be2bfbf5da75494abed3eca04e5d5bf, type: 3}
-  m_PrefabInstance: {fileID: 1757799287}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1555153046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1555153043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1001 &1556219587
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7571,6 +7429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -7601,25 +7463,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fab9640762a8cf4895b5396710da689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1569911189 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4320da91133dda344bdaba392bd42e80, type: 3}
-  m_PrefabInstance: {fileID: 369716723}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1569911192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569911189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1001 &1571415554
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7677,25 +7520,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5592ba2a243e12a4c9286c83a33bf8a8, type: 3}
---- !u!1 &1573546230 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9be2bfbf5da75494abed3eca04e5d5bf, type: 3}
-  m_PrefabInstance: {fileID: 1043334110}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1573546233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1573546230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1 &1576885492
 GameObject:
   m_ObjectHideFlags: 0
@@ -7719,8 +7543,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1576885492}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.8, y: 4.32, z: 2}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.8, y: 4.32, z: -6.8999996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 214303080}
@@ -7786,28 +7610,9 @@ Transform:
   - {fileID: 1251742728}
   - {fileID: 1695064294}
   - {fileID: 1697058895}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1408891978}
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1581453079 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9be2bfbf5da75494abed3eca04e5d5bf, type: 3}
-  m_PrefabInstance: {fileID: 696086909}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1581453082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581453079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1 &1588037897 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
@@ -7893,6 +7698,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -7963,6 +7772,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -8175,49 +7988,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fab9640762a8cf4895b5396710da689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1639695698 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 181017908}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1639695701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1639695698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!4 &1641465056 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d0c47ead34bed0541a56e6b54cb7049d, type: 3}
   m_PrefabInstance: {fileID: 46839659}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1668165788 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dc17f5a77132ab34185faf4cad5c04d9, type: 3}
-  m_PrefabInstance: {fileID: 1758360640}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1668165791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1668165788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!4 &1683384010 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9be2bfbf5da75494abed3eca04e5d5bf, type: 3}
@@ -8533,6 +8308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -8677,44 +8456,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc17f5a77132ab34185faf4cad5c04d9, type: 3}
---- !u!1 &1758927625 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 917813583}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1758927628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1758927625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
---- !u!1 &1768897130 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 1124731783}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1768897133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1768897130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1001 &1792974657
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8897,6 +8638,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -8905,25 +8650,6 @@ PrefabInstance:
     - {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
     - {fileID: 190544719948302706, guid: bd13861f4ad53954b85039535d82d610, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bd13861f4ad53954b85039535d82d610, type: 3}
---- !u!1 &1840082714 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dc17f5a77132ab34185faf4cad5c04d9, type: 3}
-  m_PrefabInstance: {fileID: 1535186357}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1840082717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1840082714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1001 &1841082571
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9123,6 +8849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -9194,6 +8924,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -9259,25 +8993,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9be2bfbf5da75494abed3eca04e5d5bf, type: 3}
---- !u!1 &1867724477 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 54253295}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1867724480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1867724477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1 &1870969747 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
@@ -9300,6 +9015,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fab9640762a8cf4895b5396710da689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1886413989 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2045601653604734346, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+  m_PrefabInstance: {fileID: 848180706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!146 &1886413991
+WheelCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886413989}
+  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.5
+  m_SuspensionSpring:
+    spring: 35000
+    damper: 4500
+    targetPosition: 0.5
+  m_SuspensionDistance: 0.3
+  m_ForceAppPointDistance: 0
+  m_Mass: 20
+  m_WheelDampingRate: 0.25
+  m_ForwardFriction:
+    m_ExtremumSlip: 0.4
+    m_ExtremumValue: 1
+    m_AsymptoteSlip: 0.8
+    m_AsymptoteValue: 0.5
+    m_Stiffness: 1
+  m_SidewaysFriction:
+    m_ExtremumSlip: 0.2
+    m_ExtremumValue: 1
+    m_AsymptoteSlip: 0.5
+    m_AsymptoteValue: 0.75
+    m_Stiffness: 1
+  m_Enabled: 1
 --- !u!1001 &1887860407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9363,6 +9113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -9371,44 +9125,6 @@ PrefabInstance:
     - {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
     - {fileID: 190544719948302706, guid: bd13861f4ad53954b85039535d82d610, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bd13861f4ad53954b85039535d82d610, type: 3}
---- !u!1 &1888416846 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 1416251446}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1888416849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1888416846}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
---- !u!1 &1900609616 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dc17f5a77132ab34185faf4cad5c04d9, type: 3}
-  m_PrefabInstance: {fileID: 2099422433}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1900609619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1900609616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1 &1903535566 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
@@ -9494,6 +9210,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -9524,25 +9244,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fab9640762a8cf4895b5396710da689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1926185133 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 631207879}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1926185136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926185133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!4 &1928092728 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 63feccdbce997314d86041da9cfa5c37, type: 3}
@@ -9610,6 +9311,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -9681,6 +9386,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -9775,6 +9484,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -9805,25 +9518,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fab9640762a8cf4895b5396710da689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1980699065 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d0c47ead34bed0541a56e6b54cb7049d, type: 3}
-  m_PrefabInstance: {fileID: 46839659}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1980699068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1980699065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1001 &1989777841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9886,6 +9580,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -9979,25 +9677,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fab9640762a8cf4895b5396710da689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1998421125 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dc17f5a77132ab34185faf4cad5c04d9, type: 3}
-  m_PrefabInstance: {fileID: 1597377860}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1998421128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1998421125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1001 &2000747596
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10144,6 +9823,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -10157,25 +9840,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
   m_PrefabInstance: {fileID: 614775202}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2007117579 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9be2bfbf5da75494abed3eca04e5d5bf, type: 3}
-  m_PrefabInstance: {fileID: 1345949591}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2007117582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2007117579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!4 &2016272538 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
@@ -10249,6 +9913,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -10257,6 +9925,11 @@ PrefabInstance:
     - {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
     - {fileID: 190544719948302706, guid: bd13861f4ad53954b85039535d82d610, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+--- !u!4 &2032680193 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 186f87f122e2f9e449447ca4f02f9a95, type: 3}
+  m_PrefabInstance: {fileID: 848180706}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2039268297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10320,6 +9993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckpointSingle (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -10328,44 +10005,6 @@ PrefabInstance:
     - {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
     - {fileID: 190544719948302706, guid: bd13861f4ad53954b85039535d82d610, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bd13861f4ad53954b85039535d82d610, type: 3}
---- !u!1 &2058517409 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 188001665}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2058517412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2058517409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
---- !u!1 &2059256814 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2870881211513d948aeed9a062cacaa2, type: 3}
-  m_PrefabInstance: {fileID: 844340838}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2059256817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2059256814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1001 &2071854980
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10428,6 +10067,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
@@ -10494,44 +10137,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2870881211513d948aeed9a062cacaa2, type: 3}
---- !u!1 &2086778128 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1da236c4c3753514993ddfe4ef0b98c7, type: 3}
-  m_PrefabInstance: {fileID: 134809062}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2086778131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2086778128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
---- !u!1 &2095951605 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6d0a37fecc2c90247a2a88305a70abce, type: 3}
-  m_PrefabInstance: {fileID: 1816757915}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2095951608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095951605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b198b6fbe0474a4b969c83751104d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carTransformList:
-  - {fileID: 546548001}
 --- !u!1001 &2099312980
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10720,6 +10325,10 @@ PrefabInstance:
     - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Name
       value: CheckpointSingle (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190544719948302717, guid: bd13861f4ad53954b85039535d82d610, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 5580058325817813439, guid: bd13861f4ad53954b85039535d82d610, type: 3}
       propertyPath: m_Enabled
