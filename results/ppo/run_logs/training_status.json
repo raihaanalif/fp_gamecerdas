@@ -2,22 +2,22 @@
     "CarAgent": {
         "checkpoints": [
             {
-                "steps": 2432,
-                "file_path": "results\\ppo\\CarAgent\\CarAgent-2432.onnx",
+                "steps": 4160,
+                "file_path": "results\\ppo\\CarAgent\\CarAgent-4160.onnx",
                 "reward": null,
-                "creation_time": 1654193308.2813714,
+                "creation_time": 1654238726.3976781,
                 "auxillary_file_paths": [
-                    "results\\ppo\\CarAgent\\CarAgent-2432.pt"
+                    "results\\ppo\\CarAgent\\CarAgent-4160.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 2432,
+            "steps": 4160,
             "file_path": "results\\ppo\\CarAgent.onnx",
             "reward": null,
-            "creation_time": 1654193308.2813714,
+            "creation_time": 1654238726.3976781,
             "auxillary_file_paths": [
-                "results\\ppo\\CarAgent\\CarAgent-2432.pt"
+                "results\\ppo\\CarAgent\\CarAgent-4160.pt"
             ]
         }
     },

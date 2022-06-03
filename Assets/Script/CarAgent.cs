@@ -5,7 +5,6 @@ using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
 
 [RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(DecisionRequester))]
 public class CarAgent : Agent
 {
     private float moveSpeed = 16;
